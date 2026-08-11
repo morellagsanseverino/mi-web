@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bunka · Cultura Japonesa</title>
+  <meta name="description" content="Un viaje a través de las tradiciones, la gastronomía y la filosofía de Japón." />
+  <link rel="preconnect" href__="https://fonts.googleapis.com" />
+  <link rel="preconnect" href__="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="jp-navbar">
+    <div class="nav-inner">
+      <a href__="#inicio" class="logo">日本 <span class="logo-jp">文化</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menú">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href__="#inicio">Inicio</a>
+        <a href__="#esencia">Esencia</a>
+        <a href__="#tradiciones">Tradiciones</a>
+        <a href__="#gastronomia">Gastronomía</a>
+        <a href__="#filosofia">Filosofía</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="inicio" class="jp-hero">
+    <img src="https://media.base44.com/images/public/6a71f6d969478c7aa5b865cf/c204d4516_generated_2ae7e0aa.png" alt="Templo japonés al atardecer" class="jp-hero-img" />
+    <div class="jp-hero-overlay"></div>
+    <div class="jp-hero-content">
+      <p class="jp-kicker" style="color:#E8C77A">Land of the Rising Sun</p>
+      <div class="jp-rule" style="background:#E8C77A"></div>
+      <h1 class="jp-display reveal">La serenidad de<br>la cultura japonesa</h1>
+      <p class="reveal reveal-delay-2">Un viaje a través de tradiciones milenarias, la belleza de lo efímero y el equilibrio entre la naturaleza y el espíritu.</p>
+      <div class="reveal reveal-delay-3">
+        <a href__="#esencia" class="jp-btn jp-btn-primary">Descubrir</a>
+        <a href__="#tradiciones" class="jp-btn jp-btn-ghost-light">Tradiciones</a>
+      </div>
+    </div>
+    <a href__="#esencia" class="scroll-cue">Explorar ⌄</a>
+  </header>
+
+  <!-- ESENCIA -->
+  <section id="esencia" class="section section-grid">
+    <div class="reveal">
+      <div class="frame frame-portrait">
+        <img src="https://media.base44.com/images/public/6a71f6d969478c7aa5b865cf/ac4583c8b_generated_e15cf1be.png" alt="Ceremonia del té" />
+      </div>
+      <span class="jp-vertical">茶の湯</span>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <p class="jp-kicker">Esencia</p>
+      <div class="jp-rule"></div>
+      <h2 class="jp-display">Donde lo<br>simple se vuelve<br><em>profundo</em></h2>
+      <p class="muted">Japón es un país donde la tradición y la modernidad conviven en perfecto equilibrio. Cada gesto, cada objeto y cada estación del año encierran un significado.</p>
+      <p class="muted">Desde la ceremonia del té hasta el arte de arreglar flores, la cultura japonesa encuentra la belleza en los detalles pequeños.</p>
+      <div class="stats">
+        <div><span class="kanji">千年</span><span>Tradición milenaria</span></div>
+        <div><span class="kanji">和</span><span>Armonía</span></div>
+        <div><span class="kanji">侘寂</span><span>Belleza impermanente</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRADICIONES -->
+  <section id="tradiciones" class="section section-tint">
+    <div class="center-head">
+      <p class="jp-kicker reveal">Tradiciones</p>
+      <div class="jp-rule center reveal"></div>
+      <h2 class="jp-display reveal">Artes que trascienden</h2>
+      <p class="muted reveal">Disciplinas practicadas durante siglos, donde el proceso importa tanto como el resultado.</p>
+    </div>
+    <div class="cards">
+      <article class="jp-card reveal reveal-delay-1">
+        <div class="card-top"><span class="kanji-lg">茶道</span></div>
+        <h3>Sadō · Ceremonia del té</h3>
+        <div class="jp-rule"></div>
+        <p class="muted">Un ritual milenario donde cada movimiento es meditación. El té matcha se prepara con precisión y silencio.</p>
+      </article>
+      <article class="jp-card reveal reveal-delay-2">
+        <div class="card-top"><span class="kanji-lg">生花</span></div>
+        <h3>Ikebana · Arte floral</h3>
+        <div class="jp-rule"></div>
+        <p class="muted">El arte de disponer flores con sentido de armonía, asimetría y vacío. Cada ramo respeta cielo, tierra y humanidad.</p>
+      </article>
+      <article class="jp-card reveal reveal-delay-3">
+        <div class="card-top"><span class="kanji-lg">書道</span></div>
+        <h3>Shodō · Caligrafía</h3>
+        <div class="jp-rule"></div>
+        <p class="muted">La escritura como caminos del espíritu. Con pincel y tinta, cada trazo expresa el carácter de quien lo traza.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- GASTRONOMÍA -->
+  <section id="gastronomia" class="section section-grid">
+    <div class="reveal">
+      <p class="jp-kicker">Gastronomía</p>
+      <div class="jp-rule"></div>
+      <h2 class="jp-display">El sabor de las<br><em>cuatro estaciones</em></h2>
+      <p class="muted">La cocina japonesa, Patrimonio Cultural Inmaterial, celebra los ingredientes de temporada con respeto y minimalismo.</p>
+      <div class="mini-grid">
+        <div><p class="jp-display">Kaiseki</p><p class="muted small">Banquete estacional de múltiples tiempos</p></div>
+        <div><p class="jp-display">Sushi</p><p class="muted small">Arroz avinagrado y pescado fresco</p></div>
+        <div><p class="jp-display">Ramen</p><p class="muted small">Fideos en caldo rico y aromático</p></div>
+        <div><p class="jp-display">Wagashi</p><p class="muted small">Dulces tradicionales de aspecto poético</p></div>
+      </div>
+      <p class="accent">Itadakimasu · いただきます</p>
+    </div>
+    <div class="reveal reveal-delay-1 frame-wrap">
+      <div class="frame">
+        <img src="https://media.base44.com/images/public/6a71f6d969478c7aa5b865cf/bca17d43a_generated_6585ebb0.png" alt="Cocina japonesa kaiseki" />
+      </div>
+      <span class="jp-vertical jp-vertical-left">和食</span>
+    </div>
+  </section>
+
+  <!-- FILOSOFÍA -->
+  <section id="filosofia" class="philosophy">
+    <img src="https://media.base44.com/images/public/6a71f6d969478c7aa5b865cf/7dc527a5e_generated_ba91c884.png" alt="Jardín zen" class="bg-img" />
+    <div class="philosophy-overlay"></div>
+    <div class="philosophy-content">
+      <p class="jp-kicker reveal" style="color:#E8C77A">Filosofía</p>
+      <div class="jp-rule center reveal" style="background:#E8C77A"></div>
+      <p class="kanji-big reveal">侘寂</p>
+      <h2 class="jp-display reveal">Wabi-Sabi</h2>
+      <p class="quote reveal">«La belleza de lo imperfecto, lo impermanente y lo incompleto. Una grieta reparada con oro hace al objeto más bello que el original.»</p>
+      <p class="small-cap reveal">Kintsugi · 金継ぎ</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <p class="logo light">日本 <span class="logo-jp">文化</span></p>
+        <p class="muted light">Un homenaje a la cultura de Japón: su historia, sus artes y su manera de encontrar belleza en lo esencial.</p>
+      </div>
+      <div>
+        <p class="jp-kicker" style="color:#E8C77A">Secciones</p>
+        <ul>
+          <li><a href__="#esencia">Esencia</a></li>
+          <li><a href__="#tradiciones">Tradiciones</a></li>
+          <li><a href__="#gastronomia">Gastronomía</a></li>
+          <li><a href__="#filosofia">Filosofía</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="jp-kicker" style="color:#E8C77A">Contacto</p>
+        <ul>
+          <li><a href__="mailto:hola@bunka.jp">hola@bunka.jp</a></li>
+          <li><a href__="tel:+81000000000">+81 (0) 00 000 000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Bunka · Cultura Japonesa. Todos los derechos reservados.</p>
+      <div><a href__="#">Privacidad</a><a href__="#">Términos</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
